@@ -8,6 +8,10 @@ title: Home
 
 このサイトは開成コンピュータ部の公式サイトです。
 
+## Menu
+
+* [Let's Embug Online](lets_embug/)
+
 ## Recent Updates
 
 <ul class="posts">
