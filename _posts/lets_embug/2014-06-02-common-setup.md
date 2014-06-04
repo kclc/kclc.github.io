@@ -143,22 +143,24 @@ Visual Studio でも MonoDevelop でも、「ファイル」->「新規」->「�
 ![Visual Studio 2013 での例3]({{ site.url }}/assets/img/vs2013_editor.png)
 
 中央部分に出ているのがプログラムのコードです。
-    
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-    
-    namespace KclcFirst
+
+{% highlight csharp linenos %}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KclcFirst
+{
+    class Program
     {
-        class Program
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-            }
         }
     }
+}
+{% endhighlight %}
 
 なにがなんだかさっぱりわからないでしょうが、これは「何もしないプログラム」です。
 
