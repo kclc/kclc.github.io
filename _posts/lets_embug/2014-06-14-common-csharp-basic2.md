@@ -261,6 +261,8 @@ switch(式)
         リテラル2に等しい時の処理;
     break;
 
+    // いくらでも続けることができる
+
     default:
         どれにも等しくない時の処理;
     break;
@@ -291,8 +293,6 @@ switch(input)
     case "N":
         Console.WriteLine("No!");
     break;
-
-    // いくらでも続けることができる
 
     default:
         Console.WriteLine("どっちでもないです。");
